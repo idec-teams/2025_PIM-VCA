@@ -24,7 +24,7 @@ export function Members() {
     // 计算y轴居中所需的偏移量
     const centerY = window.innerHeight / 2;
     const memberCenterY = memberRect.top + memberRect.height / 2;
-    const offsetY = centerY - memberCenterY - 300;
+    const offsetY = centerY - memberCenterY - 250;
     
     setPosition({ x: offsetX, y: offsetY });
   };
@@ -69,7 +69,7 @@ export function Members() {
   return (
     <div className='members' ref={membersRef}>
       <h1 className="text-center text-4xl font-bold text-[#7030A0] mb-10">Supervisor</h1>
-      <div className="flex justify-center mb-20">
+      <div className="flex justify-center gap-10 mb-20">
         <div 
           ref={el => memberRefs.current["Jian Mo"] = el}
           style={{
@@ -83,7 +83,7 @@ export function Members() {
           <img 
             src="members/1.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Jian Mo" && showDetails ? 
                 "scale-180" : 
@@ -114,7 +114,7 @@ export function Members() {
           <img 
             src="members/2.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yijia Huang" && showDetails ? 
                 "scale-180" : 
@@ -141,7 +141,7 @@ export function Members() {
           <img 
             src="members/3.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yuesi Xu" && showDetails ? 
                 "scale-180" : 
@@ -168,7 +168,7 @@ export function Members() {
           <img 
             src="members/4.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Benjamin Yang" && showDetails ? 
                 "scale-180" : 
@@ -195,7 +195,7 @@ export function Members() {
           <img 
             src="members/5.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Xinyao Ma" && showDetails ? 
                 "scale-180" : 
@@ -225,7 +225,7 @@ export function Members() {
           <img 
             src="members/6.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Haotian Lu" && showDetails ? 
                 "scale-180" : 
@@ -252,7 +252,7 @@ export function Members() {
           <img 
             src="members/7.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yufan Dong" && showDetails ? 
                 "scale-180" : 
@@ -279,7 +279,7 @@ export function Members() {
           <img 
             src="members/8.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Xiaoman Li" && showDetails ? 
                 "scale-180" : 
@@ -306,7 +306,7 @@ export function Members() {
           <img 
             src="members/9.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Chengjun Jiang" && showDetails ? 
                 "scale-180" : 
@@ -335,7 +335,7 @@ export function Members() {
           <img 
             src="members/10.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Xiaohan Sophie Wang" && showDetails ? 
                 "scale-180" : 
@@ -362,7 +362,7 @@ export function Members() {
           <img 
             src="members/11.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Jiayang Wang" && showDetails ? 
                 "scale-180" : 
@@ -389,7 +389,7 @@ export function Members() {
           <img 
             src="members/12.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Youran Li" && showDetails ? 
                 "scale-180" : 
@@ -416,7 +416,7 @@ export function Members() {
           <img 
             src="members/13.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Xuyin Dai" && showDetails ? 
                 "scale-180" : 
@@ -445,7 +445,7 @@ export function Members() {
           <img 
             src="members/14.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yican Cai" && showDetails ? 
                 "scale-180" : 
@@ -472,7 +472,7 @@ export function Members() {
           <img 
             src="members/15.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yuyan Huang" && showDetails ? 
                 "scale-180" : 
@@ -499,7 +499,7 @@ export function Members() {
           <img 
             src="members/16.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Boqing Liu" && showDetails ? 
                 "scale-180" : 
@@ -526,7 +526,7 @@ export function Members() {
           <img 
             src="members/17.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yishun Pei" && showDetails ? 
                 "scale-180" : 
@@ -555,7 +555,7 @@ export function Members() {
           <img 
             src="members/18.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Yueyang Xia" && showDetails ? 
                 "scale-180" : 
@@ -582,7 +582,7 @@ export function Members() {
           <img 
             src="members/19.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Zimeng Jessie Yu" && showDetails ? 
                 "scale-180" : 
@@ -609,7 +609,7 @@ export function Members() {
           <img 
             src="members/20.png" 
             className={`
-              w-[180px] border-[6px] border-[#4874CB] rounded-full 
+              w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
               ${selectedMember === "Xiaoyuchen Liu" && showDetails ? 
                 "scale-180" : 
