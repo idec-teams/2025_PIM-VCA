@@ -1,0 +1,68 @@
+/* Members 组件样式 */
+.members {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh; /* 确保容器至少有视口高度 */
+}
+
+.members .member {
+  transition: transform 300ms ease-in-out;
+  position: relative;
+  z-index: 10;
+}
+
+/* 当成员被选中时增加z-index */
+.members .member.selected {
+  z-index: 20;
+}
+
+
+.introduction {
+  padding: 20px;
+  background-color: #4874CB;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  clip-path: circle(0% at 50% 0%);
+  transform-origin: top center;
+  transition: clip-path 0.6s ease-out;
+  pointer-events: none;
+  border-radius: 20px;
+  top: 250px;
+  line-height: 40px;
+}
+
+.introduction.show {
+  clip-path: circle(100% at 50% 0%);
+  pointer-events: auto;
+}
+
+.introduction.hide {
+  clip-path: circle(0% at 50% 0%);
+  pointer-events: none;
+}
+
+/* 展开动画 */
+@keyframes expand {
+  from {
+    clip-path: circle(0% at 50% 0%);
+  }
+
+  to {
+    clip-path: circle(100% at 50% 0%);
+  }
+}
+
+/* 收缩动画 */
+@keyframes collapse {
+  from {
+    clip-path: circle(100% at 50% 0%);
+  }
+
+  to {
+    clip-path: circle(0% at 50% 0%);
+  }
+}
