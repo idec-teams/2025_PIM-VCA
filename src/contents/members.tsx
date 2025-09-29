@@ -81,7 +81,7 @@ export function Members() {
           className={`${selectedMember === "Jian Mo" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/1.png" 
+            src="images/members/1.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -112,7 +112,7 @@ export function Members() {
           className={`${selectedMember === "Yijia Huang" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/2.png" 
+            src="images/members/2.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -139,7 +139,7 @@ export function Members() {
           className={`${selectedMember === "Yuesi Xu" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/3.png" 
+            src="images/members/3.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -166,7 +166,7 @@ export function Members() {
           className={`${selectedMember === "Benjamin Yang" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/4.png" 
+            src="images/members/4.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -193,7 +193,7 @@ export function Members() {
           className={`${selectedMember === "Xinyao Ma" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/5.png" 
+            src="images/members/5.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -223,7 +223,7 @@ export function Members() {
           className={`${selectedMember === "Haotian Lu" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/6.png" 
+            src="images/members/6.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -250,7 +250,7 @@ export function Members() {
           className={`${selectedMember === "Yufan Dong" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/7.png" 
+            src="images/members/7.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -277,7 +277,7 @@ export function Members() {
           className={`${selectedMember === "Xiaoman Li" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/8.png" 
+            src="images/members/8.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -304,7 +304,7 @@ export function Members() {
           className={`${selectedMember === "Chengjun Jiang" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/9.png" 
+            src="images/members/9.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -333,7 +333,7 @@ export function Members() {
           className={`${selectedMember === "Xiaohan Sophie Wang" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/10.png" 
+            src="images/members/10.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -360,7 +360,7 @@ export function Members() {
           className={`${selectedMember === "Jiayang Wang" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/11.png" 
+            src="images/members/11.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -387,7 +387,7 @@ export function Members() {
           className={`${selectedMember === "Youran Li" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/12.png" 
+            src="images/members/12.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -414,7 +414,7 @@ export function Members() {
           className={`${selectedMember === "Xuyin Dai" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/13.png" 
+            src="images/members/13.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -443,7 +443,7 @@ export function Members() {
           className={`${selectedMember === "Yican Cai" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/14.png" 
+            src="images/members/14.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -470,7 +470,7 @@ export function Members() {
           className={`${selectedMember === "Yuyan Huang" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/15.png" 
+            src="images/members/15.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -497,7 +497,7 @@ export function Members() {
           className={`${selectedMember === "Boqing Liu" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/16.png" 
+            src="images/members/16.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -524,7 +524,7 @@ export function Members() {
           className={`${selectedMember === "Yishun Pei" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/17.png" 
+            src="images/members/17.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -553,7 +553,7 @@ export function Members() {
           className={`${selectedMember === "Yueyang Xia" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/18.png" 
+            src="images/members/18.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -580,7 +580,7 @@ export function Members() {
           className={`${selectedMember === "Zimeng Jessie Yu" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/19.png" 
+            src="images/members/19.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
@@ -607,7 +607,7 @@ export function Members() {
           className={`${selectedMember === "Xiaoyuchen Liu" && showOverlay ? 'z-10' : ''}`}
         >
           <img 
-            src="members/20.png" 
+            src="images/members/20.png" 
             className={`
               w-[180px] h-[180px] border-[6px] border-[#4874CB] rounded-full 
               transition-all duration-300 ease-in-out cursor-pointer
