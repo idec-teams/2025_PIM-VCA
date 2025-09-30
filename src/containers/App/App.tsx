@@ -73,7 +73,7 @@ const App = () => {
                   element={
                     <>
                       {!hideBanner && <Header title={title || ""} lead={lead || ""} banner={banner || ""} /> }
-                      <div className={currentPath=='/' ? "" : "container mx-auto px-4 py-6"}>
+                      <div>
                         <Component />
                       </div>
                     </>

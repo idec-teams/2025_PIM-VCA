@@ -67,7 +67,7 @@ export function Members() {
   };
 
   return (
-    <div className='members' ref={membersRef}>
+    <div className='members py-8' ref={membersRef}>
       <h1 className="text-center text-4xl font-bold text-[#7030A0] mb-10">Supervisor</h1>
       <div className="flex justify-center gap-10 mb-20">
         <div 

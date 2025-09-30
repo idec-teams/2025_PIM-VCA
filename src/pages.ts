@@ -115,6 +115,7 @@ const Pages: (Page | Folder)[] = [
         path: "/protocol",
         component: Protocol,
         lead: "",
+        hideBanner: true
       },
     ],
   }
