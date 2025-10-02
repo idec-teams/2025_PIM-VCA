@@ -8,7 +8,8 @@ import {
   Notebook,
   Results,
   Safety,
-  Protocol
+  Protocol,
+  Methods
 } from "./contents";
 
 interface Base {
@@ -67,6 +68,14 @@ const Pages: (Page | Folder)[] = [
         title: "Description",
         path: "/description",
         component: Description,
+        lead: "",
+        hideBanner: true
+      },
+      {
+        name: "Methods",
+        title: "Methods",
+        path: "/methods",
+        component: Methods,
         lead: "",
         hideBanner: true
       },
