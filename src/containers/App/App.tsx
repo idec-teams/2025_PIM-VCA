@@ -63,7 +63,7 @@ const App = () => {
       {/* Right Content Area */}
       <div className="flex-grow flex flex-col">
         {/* Main Content */}
-        <div className="flex-grow">
+        <div className="flex-grow flex-1">
           <Routes>
             {Object.entries(pathMapping).map(
               ([path, { title, lead, banner, hideBanner, component: Component }]) => (
@@ -73,7 +73,7 @@ const App = () => {
                   element={
                     <>
                       {!hideBanner && <Header title={title || ""} lead={lead || ""} banner={banner || ""} /> }
-                      <div>
+                      <div className="h-full">
                         <Component />
                       </div>
                     </>

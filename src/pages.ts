@@ -68,6 +68,7 @@ const Pages: (Page | Folder)[] = [
         path: "/description",
         component: Description,
         lead: "",
+        hideBanner: true
       },
       {
         name: "Results",
@@ -75,6 +76,7 @@ const Pages: (Page | Folder)[] = [
         path: "/results",
         component: Results,
         lead: "",
+        hideBanner: true
       },
       {
         name: "Report",
@@ -89,6 +91,7 @@ const Pages: (Page | Folder)[] = [
         path: "/information",
         component: Information,
         lead: "",
+        hideBanner: true
       },
     ],
   },
