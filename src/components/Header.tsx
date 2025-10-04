@@ -14,7 +14,7 @@ export function Header({ title, banner, lead }: HeaderProps) {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-5xl font-bold text-white mb-2 text-shadow">{title}</h1>
+            <h1 className="text-5xl font-bold text-[#7030A0] mb-2 text-shadow">{title}</h1>
             {lead && <p className="text-xl text-white">{lead}</p>}
           </div>
         </div>
