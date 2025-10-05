@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div className="flex flex-row min-h-screen bg-white">
       {/* Left Sidebar with Navigation */}
-      <div className="w-64 bg-gradient-to-b from-[#8A6CC9] to-[#4C1894] flex flex-col shadow-lg">
+      <div className="w-64 bg-gradient-to-b from-[#8A6CC9] to-[#4C1894] flex flex-col shadow-lg fixed top-0 left-0 h-full">
         {/* Site Title */}
         <div className="p-4 text-white">
           <h1 className="text-2xl font-bold">{import.meta.env.VITE_TEAM_NAME}</h1>
@@ -61,7 +61,7 @@ const App = () => {
       </div>
 
       {/* Right Content Area */}
-      <div className="flex-grow flex flex-col">
+      <div className="flex-grow flex flex-col ps-64">
         {/* Main Content */}
         <div className="flex-grow flex-1">
           <Routes>
@@ -107,10 +107,10 @@ const App = () => {
       {showScrollButton && (
         <button 
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 w-12 h-12 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110"
+          className="fixed bottom-8 right-8 w-16 h-16 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110"
           aria-label="Scroll to top"
         >
-          <img src="images/top.png" alt="Scroll to top" className="w-12 h-12 mx-auto" />
+          <img src="images/top.png" alt="Scroll to top" className="w-full h-full mx-auto" />
         </button>
       )}
     </div>
