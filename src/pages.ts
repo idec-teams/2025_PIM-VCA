@@ -7,7 +7,7 @@ import {
   Information,
   Notebook,
   Results,
-  Safety,
+  // Safety,
   Protocol,
   Methods
 } from "./contents";
@@ -115,13 +115,13 @@ const Pages: (Page | Folder)[] = [
         component: Notebook,
         lead: "",
       },
-      {
-        name: "Safety",
-        title: "Safety",
-        path: "/safety",
-        component: Safety,
-        lead: "",
-      },
+      // {
+      //   name: "Safety",
+      //   title: "Safety",
+      //   path: "/safety",
+      //   component: Safety,
+      //   lead: "",
+      // },
       {
         name: "Protocol",
         title: "Protocol",
